@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="screen">
+			<p id="result"></p>
+			<p id="history"></p>
+		</div>
+		<div class="buttons">
+			<button class="btn" onclick="clearScreen()">C</button>
+			<button class="btn" onclick="backspace()"><</button>
+			<button class="btn" onclick="insert('%')">%</button>
+			<button class="btn operator" onclick="insert('/')">÷</button>
+			<button class="btn" onclick="insert('7')">7</button>
+			<button class="btn" onclick="insert('8')">8</button>
+			<button class="btn" onclick="insert('9')">9</button>
+			<button class="btn operator" onclick="insert('*')">x</button>
+			<button class="btn" onclick="insert('4')">4</button>
+			<button class="btn" onclick="insert('5')">5</button>
+			<button class="btn" onclick="insert('6')">6</button>
+			<button class="btn operator" onclick="insert('-')">-</button>
+			<button class="btn" onclick="insert('1')">1</button>
+			<button class="btn" onclick="insert('2')">2</button>
+			<button class="btn" onclick="insert('3')">3</button>
+			<button class="btn operator" onclick="insert('+')">+</button>
+			<button class="btn" onclick="insert('0')">0</button>
+			<button class="btn" onclick="insert('.')">.</button>
+			<button class="btn operator" onclick="calculate()">=</button>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
